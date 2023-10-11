@@ -15,3 +15,9 @@ jobs:
 
         with:
             Command: npm run test2:SearchProduct
+
+      -name: Cypress test report
+      - uses: actions/upload-artifact@v3
+        with:
+        name: Mochawesome Test Report
+        path: cypress/reports/html/index.html    
