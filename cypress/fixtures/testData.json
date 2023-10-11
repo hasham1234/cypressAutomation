@@ -1,0 +1,12 @@
+{
+    "login":{
+        "username":"helloword@gmail.com",
+        "password":"cypressss12324"
+    },
+    "Product":{
+        "ProductName":"MacBook"
+    },
+    "message":{
+        "SuccessMessage":"Success: You have added"
+    }
+}

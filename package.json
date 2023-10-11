@@ -1,0 +1,17 @@
+{
+  "name": "automation",
+  "version": "1.0.0",
+  "description": "Automation",
+  "main": "index.js",
+  "scripts": {
+    "test1": "echo \"Error: no test specified\" && exit 1",
+    "test": "npx cypress run --record --key d22ccdc7-7319-406e-b739-7ad931c1df11",
+    "test2:SearchProduct": "npx cypress run --spec cypress/e2e/1-getting-started/Search.cy.js"
+  },
+  "author": "hasham",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.1.0",
+    "cypress-mochawesome-reporter": "^3.6.1"
+  }
+}
